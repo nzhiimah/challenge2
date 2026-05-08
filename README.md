@@ -25,7 +25,8 @@ Functions:
 - Scans the network range
 - Detects which devices are online (without scanning ports)
 
-<img width="576" height="209" alt="Screenshot 2026-05-08 150504" src="https://github.com/user-attachments/assets/80c03dd2-919b-4ca0-a437-9f2450dc6835" />
+<img width="564" height="208" alt="Screenshot 2026-05-08 151523" src="https://github.com/user-attachments/assets/dae454e8-bc9c-40f0-be83-90a78995ad05" />
+
 <br>
 Figure 1: Host discovery using Nmap (-sn scan)
 
@@ -51,3 +52,10 @@ nmap -F 192.168.83.128
 Functions:
 - Scans the top 100 commonly used ports
 - Provides quick overview of open/filtered ports
+
+<img width="553" height="157" alt="Screenshot 2026-05-08 150522" src="https://github.com/user-attachments/assets/c0402012-a68e-4ea9-a2ec-070deb4b9822" />
+<br>
+Figure 3: Fast Nmap scan (-F) on target host
+
+---
+
