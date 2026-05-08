@@ -59,3 +59,21 @@ Figure 3: Fast Nmap scan (-F) on target host
 
 ---
 
+### Results & Observation:
+- Target host ```192.168.83.128``` is active (online)
+- No open ports were detected in the fast scan
+- All scanned ports are in filtered state
+- This indicates:
+  - Firewall is likely enabled, OR
+  - Host is blocking port responses
+
+### Conclusion:
+The fast scan successfully identified that:
+
+- The target system is reachable
+- However, it is well-protected or filtered at the network level
+
+This demonstrates that:
+
+- Fast scanning is effective for initial reconnaissance
+- Even when no ports are visible, host discovery is still valuable
